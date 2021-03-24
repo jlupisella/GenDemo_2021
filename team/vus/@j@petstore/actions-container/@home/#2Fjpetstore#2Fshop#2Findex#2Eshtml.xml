@@ -1,7 +1,7 @@
 <http-page executeResourcesDynamically="false"
     name="/jpetstore/shop/index.shtml" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/f2cb32cd-0789-44d9-92db-ee3413611250.zip"
-    slaProfileEnabled="false" thinkTime="5676"
+    slaProfileEnabled="true" slaProfileName="JPetstore" thinkTime="5676"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="f2cb32cd-0789-44d9-92db-ee3413611250">
     <embedded-action>e49d184a-7831-4200-bb22-dae1a41def4b</embedded-action>
@@ -26,7 +26,7 @@
     path="/jpetstore/shop/index.shtml" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/f2cb32cd-0789-44d9-92db-ee3413611250.zip"
     recordedResponseCode="200" responseSize="6350"
-    serverUid="34.228.15.47" slaProfileEnabled="false"
+    serverUid="TrainingImage" slaProfileEnabled="false"
     uid="e49d184a-7831-4200-bb22-dae1a41def4b" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_e49d184a-7831-4200-bb22-dae1a41def4b.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_e49d184a-7831-4200-bb22-dae1a41def4b.txt</requestContentFileDescription>
@@ -68,8 +68,9 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     method="GET" name="/jpetstore/images/splash.gif"
     path="/jpetstore/images/splash.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/f2cb32cd-0789-44d9-92db-ee3413611250.zip"
-    recordedResponseCode="200" responseSize="0" serverUid="34.228.15.47"
-    slaProfileEnabled="false" uid="4883f74c-ee96-4066-a422-14e070fb6584" useKeepAlive="false">
+    recordedResponseCode="200" responseSize="0"
+    serverUid="TrainingImage" slaProfileEnabled="false"
+    uid="4883f74c-ee96-4066-a422-14e070fb6584" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_4883f74c-ee96-4066-a422-14e070fb6584.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -101,8 +102,9 @@ Content-Type: image/gif</responseHeaders>
     method="GET" name="/jpetstore/images/birds_icon.gif"
     path="/jpetstore/images/birds_icon.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/f2cb32cd-0789-44d9-92db-ee3413611250.zip"
-    recordedResponseCode="200" responseSize="0" serverUid="34.228.15.47"
-    slaProfileEnabled="false" uid="744c77d8-fcdf-4b55-917e-518480d6360d" useKeepAlive="false">
+    recordedResponseCode="200" responseSize="0"
+    serverUid="TrainingImage" slaProfileEnabled="false"
+    uid="744c77d8-fcdf-4b55-917e-518480d6360d" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_744c77d8-fcdf-4b55-917e-518480d6360d.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -134,8 +136,9 @@ Content-Type: image/gif</responseHeaders>
     method="GET" name="/jpetstore/images/sm_fish.gif"
     path="/jpetstore/images/sm_fish.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/f2cb32cd-0789-44d9-92db-ee3413611250.zip"
-    recordedResponseCode="200" responseSize="0" serverUid="34.228.15.47"
-    slaProfileEnabled="false" uid="6b1b1434-c411-4b74-8f36-ea35f1c8e0dd" useKeepAlive="false">
+    recordedResponseCode="200" responseSize="0"
+    serverUid="TrainingImage" slaProfileEnabled="false"
+    uid="6b1b1434-c411-4b74-8f36-ea35f1c8e0dd" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_6b1b1434-c411-4b74-8f36-ea35f1c8e0dd.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -167,8 +170,9 @@ Content-Type: image/gif</responseHeaders>
     method="GET" name="/jpetstore/images/cats_icon.gif"
     path="/jpetstore/images/cats_icon.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/f2cb32cd-0789-44d9-92db-ee3413611250.zip"
-    recordedResponseCode="200" responseSize="0" serverUid="34.228.15.47"
-    slaProfileEnabled="false" uid="d208caeb-51ec-4946-9718-550322f37b05" useKeepAlive="false">
+    recordedResponseCode="200" responseSize="0"
+    serverUid="TrainingImage" slaProfileEnabled="false"
+    uid="d208caeb-51ec-4946-9718-550322f37b05" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_d208caeb-51ec-4946-9718-550322f37b05.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -200,8 +204,9 @@ Content-Type: image/gif</responseHeaders>
     method="GET" name="/jpetstore/images/fish_icon.gif"
     path="/jpetstore/images/fish_icon.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/f2cb32cd-0789-44d9-92db-ee3413611250.zip"
-    recordedResponseCode="200" responseSize="0" serverUid="34.228.15.47"
-    slaProfileEnabled="false" uid="5fe8dbfc-51f5-4b7c-95fe-4c396801fd9d" useKeepAlive="false">
+    recordedResponseCode="200" responseSize="0"
+    serverUid="TrainingImage" slaProfileEnabled="false"
+    uid="5fe8dbfc-51f5-4b7c-95fe-4c396801fd9d" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_5fe8dbfc-51f5-4b7c-95fe-4c396801fd9d.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -233,8 +238,9 @@ Content-Type: image/gif</responseHeaders>
     method="GET" name="/jpetstore/images/sm_cats.gif"
     path="/jpetstore/images/sm_cats.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/f2cb32cd-0789-44d9-92db-ee3413611250.zip"
-    recordedResponseCode="200" responseSize="0" serverUid="34.228.15.47"
-    slaProfileEnabled="false" uid="484ca2f6-37f5-4913-8596-a0e786ecb7c2" useKeepAlive="false">
+    recordedResponseCode="200" responseSize="0"
+    serverUid="TrainingImage" slaProfileEnabled="false"
+    uid="484ca2f6-37f5-4913-8596-a0e786ecb7c2" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_484ca2f6-37f5-4913-8596-a0e786ecb7c2.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -266,8 +272,9 @@ Content-Type: image/gif</responseHeaders>
     method="GET" name="/jpetstore/images/sm_birds.gif"
     path="/jpetstore/images/sm_birds.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/f2cb32cd-0789-44d9-92db-ee3413611250.zip"
-    recordedResponseCode="200" responseSize="0" serverUid="34.228.15.47"
-    slaProfileEnabled="false" uid="f9c52bec-43cc-4bc7-99af-d9e2109592c6" useKeepAlive="false">
+    recordedResponseCode="200" responseSize="0"
+    serverUid="TrainingImage" slaProfileEnabled="false"
+    uid="f9c52bec-43cc-4bc7-99af-d9e2109592c6" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_f9c52bec-43cc-4bc7-99af-d9e2109592c6.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -299,8 +306,9 @@ Content-Type: image/gif</responseHeaders>
     method="GET" name="/jpetstore/images/sm_dogs.gif"
     path="/jpetstore/images/sm_dogs.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/f2cb32cd-0789-44d9-92db-ee3413611250.zip"
-    recordedResponseCode="200" responseSize="0" serverUid="34.228.15.47"
-    slaProfileEnabled="false" uid="7692d823-38f0-4e08-8d41-151330df13c3" useKeepAlive="false">
+    recordedResponseCode="200" responseSize="0"
+    serverUid="TrainingImage" slaProfileEnabled="false"
+    uid="7692d823-38f0-4e08-8d41-151330df13c3" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_7692d823-38f0-4e08-8d41-151330df13c3.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -332,8 +340,9 @@ Content-Type: image/gif</responseHeaders>
     method="GET" name="/jpetstore/images/dogs_icon.gif"
     path="/jpetstore/images/dogs_icon.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/f2cb32cd-0789-44d9-92db-ee3413611250.zip"
-    recordedResponseCode="200" responseSize="0" serverUid="34.228.15.47"
-    slaProfileEnabled="false" uid="b41b5715-5510-4e2e-970e-b1c06b583058" useKeepAlive="false">
+    recordedResponseCode="200" responseSize="0"
+    serverUid="TrainingImage" slaProfileEnabled="false"
+    uid="b41b5715-5510-4e2e-970e-b1c06b583058" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_b41b5715-5510-4e2e-970e-b1c06b583058.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -365,8 +374,9 @@ Content-Type: image/gif</responseHeaders>
     method="GET" name="/jpetstore/images/sm_reptiles.gif"
     path="/jpetstore/images/sm_reptiles.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/f2cb32cd-0789-44d9-92db-ee3413611250.zip"
-    recordedResponseCode="200" responseSize="0" serverUid="34.228.15.47"
-    slaProfileEnabled="false" uid="6e921934-c0a1-41b9-8bb8-810b147ae506" useKeepAlive="false">
+    recordedResponseCode="200" responseSize="0"
+    serverUid="TrainingImage" slaProfileEnabled="false"
+    uid="6e921934-c0a1-41b9-8bb8-810b147ae506" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_6e921934-c0a1-41b9-8bb8-810b147ae506.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
@@ -398,8 +408,9 @@ Content-Type: image/gif</responseHeaders>
     method="GET" name="/jpetstore/images/reptiles_icon.gif"
     path="/jpetstore/images/reptiles_icon.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/f2cb32cd-0789-44d9-92db-ee3413611250.zip"
-    recordedResponseCode="200" responseSize="0" serverUid="34.228.15.47"
-    slaProfileEnabled="false" uid="2ad15fa0-6b95-4177-b05a-529606d23e56" useKeepAlive="false">
+    recordedResponseCode="200" responseSize="0"
+    serverUid="TrainingImage" slaProfileEnabled="false"
+    uid="2ad15fa0-6b95-4177-b05a-529606d23e56" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_2ad15fa0-6b95-4177-b05a-529606d23e56.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>

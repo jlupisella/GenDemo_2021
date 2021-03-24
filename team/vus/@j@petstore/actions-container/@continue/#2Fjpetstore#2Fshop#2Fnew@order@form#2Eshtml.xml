@@ -1,11 +1,11 @@
 <http-page executeResourcesDynamically="false"
     name="/jpetstore/shop/newOrderForm.shtml"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/8d372fce-d085-45a1-8d48-19a96a4a1333.zip"
-    slaProfileEnabled="false" thinkTime="9831"
+    recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/68513ecb-b839-4383-823c-f0422e4cd4f6.zip"
+    slaProfileEnabled="true" slaProfileName="JPetstore" thinkTime="9831"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="8d372fce-d085-45a1-8d48-19a96a4a1333">
-    <embedded-action>c8600a3c-80b0-46ee-9b6d-3a65fd57a6df</embedded-action>
+    thinkTimeRangeStart="" uid="68513ecb-b839-4383-823c-f0422e4cd4f6">
+    <embedded-action>34bb9b8e-54c7-4dce-a2be-bb7097d8df1c</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
@@ -14,10 +14,11 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/jpetstore/shop/newOrderForm.shtml"
     path="/jpetstore/shop/newOrderForm.shtml" postType="2"
-    recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/8d372fce-d085-45a1-8d48-19a96a4a1333.zip"
+    recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/68513ecb-b839-4383-823c-f0422e4cd4f6.zip"
     recordedResponseCode="200" responseSize="4880"
-    serverUid="34.228.15.47" slaProfileEnabled="false"
-    uid="c8600a3c-80b0-46ee-9b6d-3a65fd57a6df" useKeepAlive="false">
+    serverUid="TrainingImage" slaProfileEnabled="true"
+    slaProfileName="JPetstore"
+    uid="34bb9b8e-54c7-4dce-a2be-bb7097d8df1c" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_c8600a3c-80b0-46ee-9b6d-3a65fd57a6df.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_c8600a3c-80b0-46ee-9b6d-3a65fd57a6df.txt</requestContentFileDescription>
     <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"/>

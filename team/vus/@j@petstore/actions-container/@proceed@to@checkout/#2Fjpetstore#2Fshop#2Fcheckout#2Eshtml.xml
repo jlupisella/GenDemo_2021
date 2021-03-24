@@ -2,9 +2,9 @@
     name="/jpetstore/shop/checkout.shtml"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/29d044c7-2cef-4c6a-abbe-0f95c043de5f.zip"
-    slaProfileEnabled="false" thinkTime="10675"
-    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="29d044c7-2cef-4c6a-abbe-0f95c043de5f">
+    slaProfileEnabled="true" slaProfileName="JPetstore"
+    thinkTime="10675" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="29d044c7-2cef-4c6a-abbe-0f95c043de5f">
     <embedded-action>64f97753-d68b-4afc-a94c-a3084ed1eb07</embedded-action>
     <embedded-action>2b63876c-7e46-435b-a634-14539e9a9d32</embedded-action>
 </http-page>
@@ -17,7 +17,8 @@
     path="/jpetstore/shop/checkout.shtml" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/29d044c7-2cef-4c6a-abbe-0f95c043de5f.zip"
     recordedResponseCode="200" responseSize="4201"
-    serverUid="34.228.15.47" slaProfileEnabled="false"
+    serverUid="TrainingImage" slaProfileEnabled="true"
+    slaProfileName="JPetstore"
     uid="64f97753-d68b-4afc-a94c-a3084ed1eb07" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_64f97753-d68b-4afc-a94c-a3084ed1eb07.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_64f97753-d68b-4afc-a94c-a3084ed1eb07.txt</requestContentFileDescription>
@@ -49,8 +50,10 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     method="GET" name="/jpetstore/images/button_continue.gif"
     path="/jpetstore/images/button_continue.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/29d044c7-2cef-4c6a-abbe-0f95c043de5f.zip"
-    recordedResponseCode="200" responseSize="0" serverUid="34.228.15.47"
-    slaProfileEnabled="false" uid="2b63876c-7e46-435b-a634-14539e9a9d32" useKeepAlive="false">
+    recordedResponseCode="200" responseSize="0"
+    serverUid="TrainingImage" slaProfileEnabled="true"
+    slaProfileName="JPetstore"
+    uid="2b63876c-7e46-435b-a634-14539e9a9d32" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_2b63876c-7e46-435b-a634-14539e9a9d32.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>

@@ -2,9 +2,9 @@
     name="/jpetstore/shop/viewCategory.shtml"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/88519654-5b2a-4ba0-8365-c4e1242be7db.zip"
-    slaProfileEnabled="false" thinkTime="14018"
-    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="88519654-5b2a-4ba0-8365-c4e1242be7db">
+    slaProfileEnabled="true" slaProfileName="JPetstore"
+    thinkTime="14018" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="88519654-5b2a-4ba0-8365-c4e1242be7db">
     <embedded-action>97956da6-bdba-4418-805b-0cad25e738be</embedded-action>
     <embedded-action>e333a6bc-df62-481f-b77b-5a874dbf75a6</embedded-action>
 </http-page>
@@ -18,8 +18,9 @@
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/88519654-5b2a-4ba0-8365-c4e1242be7db.zip"
     recordedResponseCode="200"
     refererUid="d1191586-25b7-4174-adad-86f84790ae70"
-    responseSize="4096" serverUid="34.228.15.47"
-    slaProfileEnabled="false" uid="97956da6-bdba-4418-805b-0cad25e738be" useKeepAlive="false">
+    responseSize="4096" serverUid="TrainingImage"
+    slaProfileEnabled="true" slaProfileName="JPetstore"
+    uid="97956da6-bdba-4418-805b-0cad25e738be" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_97956da6-bdba-4418-805b-0cad25e738be.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_97956da6-bdba-4418-805b-0cad25e738be.txt</requestContentFileDescription>
     <variable-extractor assertionOnNoMatch="true"
@@ -64,8 +65,10 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     method="GET" name="/jpetstore/images/button_next.gif"
     path="/jpetstore/images/button_next.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/88519654-5b2a-4ba0-8365-c4e1242be7db.zip"
-    recordedResponseCode="200" responseSize="0" serverUid="34.228.15.47"
-    slaProfileEnabled="false" uid="e333a6bc-df62-481f-b77b-5a874dbf75a6" useKeepAlive="false">
+    recordedResponseCode="200" responseSize="0"
+    serverUid="TrainingImage" slaProfileEnabled="true"
+    slaProfileName="JPetstore"
+    uid="e333a6bc-df62-481f-b77b-5a874dbf75a6" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_e333a6bc-df62-481f-b77b-5a874dbf75a6.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>

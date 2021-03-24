@@ -2,7 +2,7 @@
     name="/jpetstore/shop/viewProduct.shtml"
     playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/22afa3ca-41cc-4647-a4e4-9a7a89e968d7.zip"
-    slaProfileEnabled="false" thinkTime="9818"
+    slaProfileEnabled="true" slaProfileName="JPetstore" thinkTime="9818"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
     thinkTimeRangeStart="" uid="22afa3ca-41cc-4647-a4e4-9a7a89e968d7">
     <embedded-action>6edfc6c4-6f53-43f7-8aea-6354225ce1d7</embedded-action>
@@ -17,7 +17,8 @@
     path="/jpetstore/shop/viewProduct.shtml" postCharset="" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/22afa3ca-41cc-4647-a4e4-9a7a89e968d7.zip"
     recordedResponseCode="200" responseSize="4142"
-    serverUid="34.228.15.47" slaProfileEnabled="false"
+    serverUid="TrainingImage" slaProfileEnabled="true"
+    slaProfileName="JPetstore"
     uid="6edfc6c4-6f53-43f7-8aea-6354225ce1d7" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_6edfc6c4-6f53-43f7-8aea-6354225ce1d7.0.0.0.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_6edfc6c4-6f53-43f7-8aea-6354225ce1d7.txt</requestContentFileDescription>
@@ -72,8 +73,10 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     method="GET" name="/jpetstore/images/button_add_to_cart.gif"
     path="/jpetstore/images/button_add_to_cart.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@petstore/%resources%/recorded-artifacts/22afa3ca-41cc-4647-a4e4-9a7a89e968d7.zip"
-    recordedResponseCode="200" responseSize="0" serverUid="34.228.15.47"
-    slaProfileEnabled="false" uid="6bb18c5f-bbb1-4333-bbb2-1af1cf8a3fe8" useKeepAlive="false">
+    recordedResponseCode="200" responseSize="0"
+    serverUid="TrainingImage" slaProfileEnabled="true"
+    slaProfileName="JPetstore"
+    uid="6bb18c5f-bbb1-4333-bbb2-1af1cf8a3fe8" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_6bb18c5f-bbb1-4333-bbb2-1af1cf8a3fe8.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
     <header name="Accept-Encoding" value="gzip, deflate"/>
