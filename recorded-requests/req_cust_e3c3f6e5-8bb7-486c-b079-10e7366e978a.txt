@@ -1,0 +1,181 @@
+POST https://ushahidi.apps.neotys.com/reports/submit HTTP/1.1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding: br,deflate,gzip
+Accept-Language: en-US,en;q=0.5
+Connection: keep-alive
+Content-Type: multipart/form-data; boundary=---------------------------10177218583298464643098268080
+Origin: https://ushahidi.apps.neotys.com
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Referer: https://ushahidi.apps.neotys.com/reports/submit
+Host: ushahidi.apps.neotys.com
+Content-Length: 5493
+Cookie: ushahidi=hojp5n3n2lcgtcgotm3nlbkf82
+
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="form_auth_token"
+Content-Type: text/plain;charset=UTF-8
+
+d773867a4911ea81d83b4bacac715b4b429d0bc8f6e5a22d8d455c0a2c846e0e
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="latitude"
+Content-Type: text/plain;charset=UTF-8
+
+43.28083299894415
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="longitude"
+Content-Type: text/plain;charset=UTF-8
+
+5.614120955109492
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="country_name"
+Content-Type: text/plain;charset=UTF-8
+
+France
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="incident_zoom"
+Content-Type: text/plain;charset=UTF-8
+
+12
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="form_id"
+Content-Type: text/plain;charset=UTF-8
+
+
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="incident_title"
+Content-Type: text/plain;charset=UTF-8
+
+my report
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="incident_description"
+Content-Type: text/plain;charset=UTF-8
+
+my descriptiojn
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="incident_date"
+Content-Type: text/plain;charset=UTF-8
+
+07/26/2021
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="incident_hour"
+Content-Type: text/plain;charset=UTF-8
+
+01
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="incident_minute"
+Content-Type: text/plain;charset=UTF-8
+
+59
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="incident_ampm"
+Content-Type: text/plain;charset=UTF-8
+
+pm
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="incident_category[]"
+Content-Type: text/plain;charset=UTF-8
+
+2
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="person_first"
+Content-Type: text/plain;charset=UTF-8
+
+
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="person_last"
+Content-Type: text/plain;charset=UTF-8
+
+
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="person_email"
+Content-Type: text/plain;charset=UTF-8
+
+
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="geometry_label"
+Content-Type: text/plain;charset=UTF-8
+
+
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="geometry_comment"
+Content-Type: text/plain;charset=UTF-8
+
+
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="geometry_color"
+Content-Type: text/plain;charset=UTF-8
+
+
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="geometry_strokewidth"
+Content-Type: text/plain;charset=UTF-8
+
+0.5
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="geometry_lat"
+Content-Type: text/plain;charset=UTF-8
+
+
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="geometry_lon"
+Content-Type: text/plain;charset=UTF-8
+
+
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="OpenLayers_Control_LayerSwitcher_21_baseLayers"
+Content-Type: text/plain;charset=UTF-8
+
+OSM Mapnik
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="Editable"
+Content-Type: text/plain;charset=UTF-8
+
+Editable
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="location_find"
+Content-Type: text/plain;charset=UTF-8
+
+
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="location_name"
+Content-Type: text/plain;charset=UTF-8
+
+Boston
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="incident_news[]"
+Content-Type: text/plain;charset=UTF-8
+
+
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="news_id"
+Content-Type: text/plain;charset=UTF-8
+
+1
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="incident_video[]"
+Content-Type: text/plain;charset=UTF-8
+
+
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="video_id"
+Content-Type: text/plain;charset=UTF-8
+
+1
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="incident_photo[]"; filename=""
+Content-Type: application/octet-stream
+
+
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="photo_id"
+Content-Type: text/plain;charset=UTF-8
+
+1
+-----------------------------10177218583298464643098268080
+Content-Disposition: form-data; name="submit"
+Content-Type: text/plain;charset=UTF-8
+
+Submit
+-----------------------------10177218583298464643098268080--
+

@@ -1,5 +1,5 @@
 <me-host citrixSupport="false" loadWeight="1" sapSupport="false"
-    standalone="false" supportWANEmulation="false" uid="localhost" version="7.8.1;build=20210212-76">
+    standalone="false" supportWANEmulation="false" uid="localhost" version="7.11.0;build=20210903-38">
     <!--****** LG NETWORK INTERFACES ******-->
     <lg-networkiface description="Dell GigabitEthernet" enabled="false"
         isLoopBack="false" name="eth6">
@@ -33,7 +33,7 @@
         enabled="false" isLoopBack="false" name="wlan6">
         <!--****** LG ADDRESSES ******-->
         <lg-address enabled="false" hostname="pc053.intranet.neotys.com">
-            <ip value="192.168.68.117"/>
+            <ip value="192.168.68.130"/>
         </lg-address>
         <lg-address enabled="false" hostname="fe80:0:0:0:cc1c:18df:1516:96a1%wlan6">
             <ip value="fe80:0:0:0:cc1c:18df:1516:96a1%wlan6"/>
@@ -50,13 +50,13 @@
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
     <lg-networkiface description="Hyper-V Virtual Ethernet Adapter"
-        enabled="false" isLoopBack="false" name="eth24">
+        enabled="false" isLoopBack="false" name="eth21">
         <!--****** LG ADDRESSES ******-->
         <lg-address enabled="false" hostname="pc053.mshome.net">
-            <ip value="172.30.16.1"/>
+            <ip value="172.29.0.1"/>
         </lg-address>
-        <lg-address enabled="false" hostname="fe80:0:0:0:c8d:d2b2:63f2:4de6%eth24">
-            <ip value="fe80:0:0:0:c8d:d2b2:63f2:4de6%eth24"/>
+        <lg-address enabled="false" hostname="fe80:0:0:0:fd8a:42ca:c529:746e%eth21">
+            <ip value="fe80:0:0:0:fd8a:42ca:c529:746e%eth21"/>
         </lg-address>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>

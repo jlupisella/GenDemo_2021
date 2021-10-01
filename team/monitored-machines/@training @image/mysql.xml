@@ -6,7 +6,8 @@
         <monitor-mysql callTime="ON_BENCH" categoryID="0" computing="0"
             counterID="0" format="NUMBER"
             name="Connections/ threads connected" sampling="0"
-            short-display-name="threads connected" unit="">
+            short-display-name="threads connected"
+            threshold="7fe86998-8ad9-49dd-8125-9dbe76749aac" unit="">
             <description>Number of currently open connections</description>
         </monitor-mysql>
         <monitor-mysql callTime="ON_BENCH" categoryID="0" computing="0"
@@ -284,5 +285,9 @@
                 <threshold-content>Nombre élevé de 'merges passes' faites par l'algorithme de tri</threshold-content>
             </threshold-comment>
         </threshold-condition>
+    </threshold>
+    <threshold enabled="true" uid="7fe86998-8ad9-49dd-8125-9dbe76749aac">
+        <threshold-condition durationKind="SECONDS" durationNumber="15"
+            operator="GREATER_THAN" severity="HIGH" valueMax="Infinity" valueMin="4.0"/>
     </threshold>
 </connection-mysql>

@@ -1,21 +1,22 @@
 <population uid="JPetStore_3UserPaths">
     <split cache="1" factor="50.0" virtualUserUid="JPetstore">
-        <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"
-            connections="6" cookies="true" http2="true" name="browser.recorded"/>
+        <browser-profile acceptEncoding="GZIP,DEFLATE" connections="6"
+            cookies="true" http2="false" icon-name="droid"
+            name="Samsung Galaxy Note II" userAgent="Mozilla/5.0 (Linux; Android 4.1.1; GT-N7100 Build/JRO03C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"/>
         <wan-emulation-profile
             averageDownloadBandwidth="bandwidth.unlimited"
             averageDownloadLatency="0ms" averageDownloadPacketLoss="0%"
             averageUploadBandwidth="bandwidth.unlimited"
             averageUploadLatency="0ms" averageUploadPacketLoss="0%"
-            downloadBandwidth="bandwidth.unlimited"
-            downloadLatency="0ms" downloadPacketLoss="0%"
-            isRadio="false" name="bandwidth.unlimited"
+            downloadBandwidth="5Mbps" downloadLatency="215ms"
+            downloadPacketLoss="5%" isRadio="false"
+            name="bandwidth.custom"
             poorDownloadBandwidth="bandwidth.unlimited"
             poorDownloadLatency="0ms" poorDownloadPacketLoss="0%"
             poorUploadBandwidth="bandwidth.unlimited"
             poorUploadLatency="0ms" poorUploadPacketLoss="0%"
-            signalStrength="GOOD" uploadBandwidth="bandwidth.unlimited"
-            uploadLatency="0ms" uploadPacketLoss="0%"/>
+            signalStrength="GOOD" uploadBandwidth="2Mbps"
+            uploadLatency="40ms" uploadPacketLoss="0%"/>
     </split>
     <split cache="1" factor="25.0" virtualUserUid="JPetstoreBrowse">
         <browser-profile acceptEncoding="GZIP,DEFLATE,BROTLI"

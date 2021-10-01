@@ -1,7 +1,7 @@
 # Project description file
 
 project.name=GenDemos_2021
-project.version=8.2
+project.version=8.3
 project.original.version=8.2
 product.name=NeoLoad
 product.original.name=NeoLoad
@@ -11,3 +11,4 @@ project.config.path=config.zip
 project.config.storage=ZIP
 team.server.enabled=true
 team.server.project=jlupisella/GenDemos_2021
+project.is-open-test-settings-after-upload=true

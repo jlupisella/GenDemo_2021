@@ -17,9 +17,6 @@
         <!--****** POPULATION LG HOSTS ******-->
         <lg-hosts>
             <lg-host-entry>$zoneID=Default zone;$lgID=localhost:7100</lg-host-entry>
-            <lg-host-entry>$zoneID=USA Central - Iowa (West Des Moines);$lgID=13.89.59.72:443</lg-host-entry>
-            <lg-host-entry>$zoneID=USA Central - Texas (San Antonio);$lgID=13.84.200.194:443</lg-host-entry>
-            <lg-host-entry>$zoneID=USA East - Virginia (Ashburn 2);$lgID=137.135.64.16:443</lg-host-entry>
         </lg-hosts>
     </population-policy>
     <dashboards defaultDashboardUid="Graph board"/>

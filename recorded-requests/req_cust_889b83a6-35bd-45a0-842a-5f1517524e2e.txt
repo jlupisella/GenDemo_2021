@@ -1,0 +1,10 @@
+GET https://ushahidi.apps.neotys.com/media/img/icon-plus.gif HTTP/1.1
+Accept: image/webp,*/*
+Accept-Encoding: br,deflate,gzip
+Accept-Language: en-US,en;q=0.5
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Referer: https://ushahidi.apps.neotys.com/themes/default/css/style.css?m=1542866374&
+Host: ushahidi.apps.neotys.com
+Cookie: ushahidi=hojp5n3n2lcgtcgotm3nlbkf82
+
