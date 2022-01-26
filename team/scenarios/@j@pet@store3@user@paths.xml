@@ -2,6 +2,23 @@
     slaProfileEnabled="false" traceVariables="true"
     uid="JPetStore3UserPaths" virtualUsersStates="true">
     <description>Using a population with 3 User Paths</description>
+    <!--****** POPULATION POLICY ******-->
+    <population-policy name="JPetStore_3UserPaths">
+        <duration-policy-entry iterations="1" time="1800" timeUnit="0" type="2"/>
+        <volume-policy-entry>
+            <rampup-volume-policy delayIncrement="38.0"
+                delayTypeIncrement="1" initialUserNumber="50"
+                iterationNumber="1" maxUserNumber="0" userIncrement="10"/>
+        </volume-policy-entry>
+        <start-stop-policy-entry start-delay="0" start-type="0"
+            stop-delay="60000" stop-type="0"/>
+        <runtime-policy continueOnError="true" thinktimePolicy="0"
+            thinktimeValue="5000" vuStartDelay="0" vuStartMode="0"/>
+        <!--****** POPULATION LG HOSTS ******-->
+        <lg-hosts>
+            <lg-host-entry>$zoneID=Default zone;$lgID=localhost:7100</lg-host-entry>
+        </lg-hosts>
+    </population-policy>
     <dashboards defaultDashboardUid="Graph board"/>
     <!--****** DASHBOARDS  ******-->
     <charts-model-description name="Graph board">
