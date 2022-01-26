@@ -2,7 +2,7 @@
     name="Login" pacingEnd="0" pacingMode="MODE_NO_PACING"
     pacingStart="0" pacingValue="0" slaProfileEnabled="true"
     slaProfileName="JPetstore"
-    uid="662e6eb4-c479-484c-a302-37a14e7ae42b" weightsEnabled="false">
-    <weighted-embedded-action uid="571d0cd3-6c73-4e50-81d9-7d0853e5c515"/>
-    <weighted-embedded-action uid="70ee6bf1-e8f8-48f5-b611-7d808c4920d4"/>
+    uid="100324e2-b1b4-4fe7-8797-13af15a6e35f" weightsEnabled="false">
+    <weighted-embedded-action uid="2ef3b75c-5e72-4d0f-9b59-bcc0166be666"/>
+    <weighted-embedded-action uid="4684ae07-846f-400b-a7cc-7a732d5ce663"/>
 </basic-logical-action-container>

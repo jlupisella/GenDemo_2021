@@ -34,7 +34,7 @@
         regExpAdv="&amp;id=(.*?)&quot;" setDefaultValue="true"
         startsWithSimple="" template="$1$" templateAdv="$1$"
         uid="505bbd70-f484-46a3-aa28-9aa8b0aad331" xpath=""/>
-    <parameter encodeName="true" encodeValue="true" name="username"
+    <parameter encodeName="false" encodeValue="false" name="username"
         recordRawValue="j2ee" separator="="
         value="${JPetUsers.Username}" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="password"

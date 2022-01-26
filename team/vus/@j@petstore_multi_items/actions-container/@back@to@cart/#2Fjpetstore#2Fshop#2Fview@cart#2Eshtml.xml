@@ -1,11 +1,11 @@
 <http-page executeResourcesDynamically="false"
     name="/jpetstore/shop/viewCart.shtml"
     playRequestsSequentially="false"
-    recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/88255496-c58b-4bcb-a01a-c9568d6a698c.zip"
+    recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/87cf5c11-8c6b-4bb0-949b-ba89ea4b0659.zip"
     slaProfileEnabled="false" thinkTime="21803"
     thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="88255496-c58b-4bcb-a01a-c9568d6a698c">
-    <embedded-action>da352e19-149d-4715-8193-463e92ffcfbd</embedded-action>
+    thinkTimeRangeStart="" uid="87cf5c11-8c6b-4bb0-949b-ba89ea4b0659">
+    <embedded-action>575309ed-de2d-484a-b3c6-2c2e21cc55bd</embedded-action>
 </http-page>
 <http-action actionType="1" contentType="text/html;charset=ISO-8859-1"
     extractorInjectPathPolicy="2" extractorPathPolicy="1"
@@ -14,10 +14,10 @@
     linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
     method="GET" name="/jpetstore/shop/viewCart.shtml"
     path="/jpetstore/shop/viewCart.shtml" postType="2"
-    recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/88255496-c58b-4bcb-a01a-c9568d6a698c.zip"
+    recordedArtifactZipFileName="team/vus/@j@petstore_multi_items/%resources%/recorded-artifacts/87cf5c11-8c6b-4bb0-949b-ba89ea4b0659.zip"
     recordedResponseCode="200" responseSize="7033"
     serverUid="TrainingImage" slaProfileEnabled="false"
-    uid="da352e19-149d-4715-8193-463e92ffcfbd" useKeepAlive="false">
+    uid="575309ed-de2d-484a-b3c6-2c2e21cc55bd" useKeepAlive="false">
     <responsePageFileDescription>recorded-responses/res_da352e19-149d-4715-8193-463e92ffcfbd.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_da352e19-149d-4715-8193-463e92ffcfbd.txt</requestContentFileDescription>
     <header name="Accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"/>

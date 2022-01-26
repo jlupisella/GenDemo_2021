@@ -1,9 +1,9 @@
 <http-page executeResourcesDynamically="false"
     name="/jpetstore/shop/signon.shtml" playRequestsSequentially="false"
     recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/5d2ce19b-ea2a-446b-88e9-96c60af93591.zip"
-    slaProfileEnabled="false" thinkTime="3273"
-    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
-    thinkTimeRangeStart="" uid="5d2ce19b-ea2a-446b-88e9-96c60af93591">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    thinkTime="3273" thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+    thinkTimeRangeEnd="" thinkTimeRangeStart="" uid="5d2ce19b-ea2a-446b-88e9-96c60af93591">
     <embedded-action>172b7d03-829a-40bb-b68a-7554f79a43fb</embedded-action>
     <embedded-action>63042629-28d4-4aae-94bf-6efb4bf6244c</embedded-action>
     <embedded-action>cac6e573-53c3-4d06-80fd-47a5473ebdfb</embedded-action>
@@ -21,12 +21,14 @@
     recordedResponseCode="200"
     refererUid="8d994e2d-b5ca-4fdc-8f8e-6b76a8469216"
     responseSize="6530" serverUid="TrainingImage"
-    slaProfileEnabled="false" uid="172b7d03-829a-40bb-b68a-7554f79a43fb" useKeepAlive="false">
+    slaProfileEnabled="false" slaProfileName="JPetstore"
+    uid="172b7d03-829a-40bb-b68a-7554f79a43fb" useKeepAlive="false">
     <binaryPostContentBase64><![CDATA[dXNlcm5hbWU9ajJlZSZwYXNzd29yZD0ke0F1dG9QYXNzd29yZF8zfSZ4PTQ0Jnk9OQ==]]></binaryPostContentBase64>
     <responsePageFileDescription>recorded-responses/res_11dfa950-48be-4da4-938d-101df9999956.html</responsePageFileDescription>
     <requestContentFileDescription>recorded-requests/req_11dfa950-48be-4da4-938d-101df9999956.txt</requestContentFileDescription>
-    <parameter encodeName="true" encodeValue="true" name="username"
-        recordRawValue="j2ee" separator="=" value="j2ee" valueMode="USE_VALUE"/>
+    <parameter encodeName="false" encodeValue="false" name="username"
+        recordRawValue="j2ee" separator="="
+        value="${JPetUsers.Username}" valueMode="USE_VALUE"/>
     <parameter encodeName="true" encodeValue="true" name="password"
         recordRawValue="${AutoPassword_3}" separator="="
         value="${AutoPassword_3}" valueMode="USE_VALUE"/>
@@ -65,6 +67,7 @@ Content-Type: text/html;charset=ISO-8859-1</responseHeaders>
     recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/5d2ce19b-ea2a-446b-88e9-96c60af93591.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="TrainingImage" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="63042629-28d4-4aae-94bf-6efb4bf6244c" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_b5684a1b-4dd7-4105-a649-aa4e4532175e.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
@@ -96,7 +99,8 @@ Content-Type: image/gif</responseHeaders>
     path="/jpetstore/images/my_account.gif" postType="2"
     recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/5d2ce19b-ea2a-446b-88e9-96c60af93591.zip"
     recordedResponseCode="200" responseSize="0"
-    serverUid="TrainingImage" slaProfileEnabled="false"
+    serverUid="TrainingImage" slaProfileEnabled="true"
+    slaProfileName="JPetstore"
     uid="cac6e573-53c3-4d06-80fd-47a5473ebdfb" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_fd80b715-b30a-42b9-8b17-4b63468c8a14.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>
@@ -129,6 +133,7 @@ Content-Type: image/gif</responseHeaders>
     recordedArtifactZipFileName="team/vus/@j@pet@store_@no@extractions/%resources%/recorded-artifacts/5d2ce19b-ea2a-446b-88e9-96c60af93591.zip"
     recordedResponseCode="200" responseSize="0"
     serverUid="TrainingImage" slaProfileEnabled="false"
+    slaProfileName="JPetstore"
     uid="cf05f508-31db-4ea6-8e14-0a0f4a450a54" useKeepAlive="false">
     <requestContentFileDescription>recorded-requests/req_84cafdd7-f091-478a-9dd2-336146faca4e.txt</requestContentFileDescription>
     <header name="Accept" value="image/webp,*/*"/>

@@ -2,6 +2,6 @@
     name="Continue" pacingEnd="0" pacingMode="MODE_NO_PACING"
     pacingStart="0" pacingValue="0" slaProfileEnabled="true"
     slaProfileName="JPetstore"
-    uid="6ef60dca-9cdb-4dda-86ba-480c25b00cd7" weightsEnabled="false">
-    <weighted-embedded-action uid="68513ecb-b839-4383-823c-f0422e4cd4f6"/>
+    uid="589b315c-d071-46f8-a6da-b5e67b11de43" weightsEnabled="false">
+    <weighted-embedded-action uid="53eec466-d4bf-418b-adf4-b0cf60a2cf43"/>
 </basic-logical-action-container>

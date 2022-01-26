@@ -1,6 +1,7 @@
 <basic-logical-action-container element-number="1" execution-type="0"
     name="Category" pacingEnd="0" pacingMode="MODE_NO_PACING"
-    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
-    uid="f023ceab-e87f-4489-b73c-edeaec9adda0" weightsEnabled="false">
-    <weighted-embedded-action uid="2fb19b3f-7c85-4220-9642-d6a3655238e0"/>
+    pacingStart="0" pacingValue="0" slaProfileEnabled="true"
+    slaProfileName="JPetstore"
+    uid="1e6f9c29-6f7f-48f3-9769-7081e0996962" weightsEnabled="false">
+    <weighted-embedded-action uid="0562a051-0280-4b35-9b9f-3dd257b125cf"/>
 </basic-logical-action-container>

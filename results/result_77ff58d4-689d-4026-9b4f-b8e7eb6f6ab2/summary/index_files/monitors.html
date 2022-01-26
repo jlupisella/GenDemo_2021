@@ -1,0 +1,273 @@
+<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Performance Testing Report</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="leftnavigation">
+<div class="divHeader">NeoLoad Test Report</div>
+<div class="menu_wrapper">
+<div class="item">
+<a href="./summary.html">Summary</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.resultssummary">Results summary</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.statisticssummary">Statistics Summary</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.hotspots">Hot spots</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.errors">Errors</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.alerts">Alerts</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.summary.all">General statistics</a>
+</div>
+<div class="subitem">
+<a href="./summary.html#report.summary.transactions">Transaction statistics</a>
+</div>
+<div class="item">
+<a href="./settings.html">Execution context</a>
+</div>
+<div class="item">
+<a href="./servers.html">Servers</a>
+</div>
+<div class="item">
+<a href="./populations.html">Populations</a>
+</div>
+<div class="item">
+<a href="./virtual-users.html">User Paths</a>
+</div>
+<div class="item">
+<a href="./transactions.html">Transactions</a>
+</div>
+<div class="item">
+<a href="./pages.html">Pages</a>
+</div>
+<div class="item">
+<a href="./medias.html">Media Contents</a>
+</div>
+<div class="item">
+<a href="./pushmessages.html">Push messages</a>
+</div>
+<div class="item">
+<a href="./monitors.html">Monitors</a>
+</div>
+<div class="item">
+<a href="./sla-profiles-details.html">SLA per SLA Profile</a>
+</div>
+<div class="item">
+<a href="./sla-details-results-per-vu.html">SLA per User Path</a>
+</div>
+<div class="item">
+<a href="./scenario_JPetStore.html">Scenario</a>
+</div>
+<div class="title">Main graphs</div>
+<div class="item">
+<a href="./Main graphs_pages.average.html">Average page response time</a>
+</div>
+<div class="item">
+<a href="./Main graphs_requests.average.html">Average request response time</a>
+</div>
+<div class="item">
+<a href="./Main graphs_transactions.average.html">Average response time (Transactions)</a>
+</div>
+<div class="item">
+<a href="./Main graphs_hits.html">Requests per second</a>
+</div>
+<div class="item">
+<a href="./Main graphs_errors.html">Errors</a>
+</div>
+<div class="item">
+<a href="./Main graphs_throughput.html">Throughput</a>
+</div>
+<div class="item">
+<a href="./Main graphs_percentile.html">Distribution of Transaction Durations</a>
+</div>
+</div>
+<div style="float: right;">
+<img style="margin-top: 10px; margin-bottom: 0px; margin-right: 4px" src="./images/logo_tricentis.png"></div>
+</div>
+<div id="content">
+<div class="divHeader">Monitors</div>
+<p class="mediumtitle">Controller</p>
+<div style="width: 100%; height: 20px;" id="report.monitors">
+<div style="float:left" class="h1" id="statistics_summary_title">Performance Counters</div>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="monitors_template">
+<th width="36%"></th><th width="5%">Min</th><th width="5%">Avg</th><th width="5%">Max</th><th width="5%">Med</th><th width="5%">Avg-90%</th><th width="5%">Std Dev</th>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/User Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">3.97</td><td class="line2right bordered">4</td><td class="line2right bordered">4</td><td class="line2right bordered">4</td><td class="line2right bordered">0.336</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Throughput</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0.036</td><td class="line1right bordered">1.51</td><td class="line1right bordered">0</td><td class="line1right bordered">0.007</td><td class="line1right bordered">0.165</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Alerts</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Critical Alerts</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Warning Alerts</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/CPU Load</span></td><td class="line1right bordered">4</td><td class="line1right bordered">10.81</td><td class="line1right bordered">36</td><td class="line1right bordered">10</td><td class="line1right bordered">10.31</td><td class="line1right bordered">4.42</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Memory Used</span></td><td class="line2right bordered">4</td><td class="line2right bordered">7.27</td><td class="line2right bordered">9</td><td class="line2right bordered">7</td><td class="line2right bordered">7.31</td><td class="line2right bordered">1.23</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Thread Count</span></td><td class="line1right bordered">563</td><td class="line1right bordered">591.3</td><td class="line1right bordered">599</td><td class="line1right bordered">587</td><td class="line1right bordered">591.2</td><td class="line1right bordered">5.85</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Connected</span></td><td class="line2right bordered">1</td><td class="line2right bordered">1</td><td class="line2right bordered">1</td><td class="line2right bordered">1</td><td class="line2right bordered">1</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Total Disconnections</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Total Reconnections</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Network/Segments sent/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">329.7</td><td class="line1right bordered">1,676</td><td class="line1right bordered">202.4</td><td class="line1right bordered">291.3</td><td class="line1right bordered">408.9</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Network/Segments retransmitted/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Network/eth7 (Dell GigabitEthernet)/Megabits received/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Network/eth7 (Dell GigabitEthernet)/Megabits sent/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Network/eth3 (TAP-Windows Adapter V9)/Megabits received/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Network/eth3 (TAP-Windows Adapter V9)/Megabits sent/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Network/wlan6 (Qualcomm QCA61x4A 802.11ac Wireless Adapter)/Megabits received/sec.</span></td><td class="line1right bordered">0.006</td><td class="line1right bordered">0.076</td><td class="line1right bordered">1.63</td><td class="line1right bordered">0.02</td><td class="line1right bordered">0.042</td><td class="line1right bordered">0.188</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Network/wlan6 (Qualcomm QCA61x4A 802.11ac Wireless Adapter)/Megabits sent/sec.</span></td><td class="line2right bordered">0.006</td><td class="line2right bordered">0.038</td><td class="line2right bordered">0.284</td><td class="line2right bordered">0.025</td><td class="line2right bordered">0.032</td><td class="line2right bordered">0.037</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Network/eth10 (Bluetooth Device (Personal Area Network) #3)/Megabits received/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Network/eth10 (Bluetooth Device (Personal Area Network) #3)/Megabits sent/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Network/eth21 (Hyper-V Virtual Ethernet Adapter)/Megabits received/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Network/eth21 (Hyper-V Virtual Ethernet Adapter)/Megabits sent/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/NeoLoad Web/Megabits received/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/NeoLoad Web/Megabits sent/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0.01</td><td class="line2right bordered">0.017</td><td class="line2right bordered">0.009</td><td class="line2right bordered">0.01</td><td class="line2right bordered">0.003</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Default zone/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">3.97</td><td class="line1right bordered">4</td><td class="line1right bordered">4</td><td class="line1right bordered">4</td><td class="line1right bordered">0.336</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">Controller/Default zone/JPetStore/User Load</span></td><td class="line2right bordered">4</td><td class="line2right bordered">4</td><td class="line2right bordered">4</td><td class="line2right bordered">4</td><td class="line2right bordered">4</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">Controller/Default zone/JPetStore/JPetstore/User Load</span></td><td class="line1right bordered">4</td><td class="line1right bordered">4</td><td class="line1right bordered">4</td><td class="line1right bordered">4</td><td class="line1right bordered">4</td><td class="line1right bordered">0</td>
+</tr>
+</table>
+</div>
+</div>
+<p class="mediumtitle">LG localhost:7100</p>
+<div style="width: 100%; height: 20px;" id="report.monitors">
+<div style="float:left" class="h1" id="statistics_summary_title">Performance Counters</div>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table class="monitors_template">
+<th width="36%"></th><th width="5%">Min</th><th width="5%">Avg</th><th width="5%">Max</th><th width="5%">Med</th><th width="5%">Avg-90%</th><th width="5%">Std Dev</th>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/CPU Load</span></td><td class="line2right bordered">0</td><td class="line2right bordered">11</td><td class="line2right bordered">82</td><td class="line2right bordered">10</td><td class="line2right bordered">10.24</td><td class="line2right bordered">7.16</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Memory Used</span></td><td class="line1right bordered">0</td><td class="line1right bordered">2.11</td><td class="line1right bordered">4</td><td class="line1right bordered">2</td><td class="line1right bordered">2.02</td><td class="line1right bordered">0.52</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Throughput</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0.036</td><td class="line2right bordered">1.51</td><td class="line2right bordered">0</td><td class="line2right bordered">0.007</td><td class="line2right bordered">0.165</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/User Load</span></td><td class="line1right bordered">0</td><td class="line1right bordered">3.97</td><td class="line1right bordered">4</td><td class="line1right bordered">4</td><td class="line1right bordered">4</td><td class="line1right bordered">0.336</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Thread Count</span></td><td class="line2right bordered">0</td><td class="line2right bordered">65.1</td><td class="line2right bordered">70</td><td class="line2right bordered">65</td><td class="line2right bordered">65.8</td><td class="line2right bordered">6.55</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Http client/Thread Pool used</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0.11</td><td class="line1right bordered">0.13</td><td class="line1right bordered">0.105</td><td class="line1right bordered">0.11</td><td class="line1right bordered">0.014</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Http client/Task Pool used</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Controller Connection/Disconnections</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Controller Connection/Reconnections</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Controller Connection/Ping Duration (ms)</span></td><td class="line1right bordered">2</td><td class="line1right bordered">5.98</td><td class="line1right bordered">7</td><td class="line1right bordered">7</td><td class="line1right bordered">6.12</td><td class="line1right bordered">2.02</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/Segments sent/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">21.6</td><td class="line2right bordered">1,072</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">117.5</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/Segments retransmitted/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/eth7 (Dell GigabitEthernet)/Megabits received/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/eth7 (Dell GigabitEthernet)/Megabits sent/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/eth3 (TAP-Windows Adapter V9)/Megabits received/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/eth3 (TAP-Windows Adapter V9)/Megabits sent/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/wlan6 (Qualcomm QCA61x4A 802.11ac Wireless Adapter)/Megabits received/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0.075</td><td class="line2right bordered">1.63</td><td class="line2right bordered">0.019</td><td class="line2right bordered">0.04</td><td class="line2right bordered">0.189</td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/wlan6 (Qualcomm QCA61x4A 802.11ac Wireless Adapter)/Megabits sent/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0.037</td><td class="line1right bordered">0.284</td><td class="line1right bordered">0.024</td><td class="line1right bordered">0.031</td><td class="line1right bordered">0.037</td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/eth10 (Bluetooth Device (Personal Area Network) #3)/Megabits received/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/eth10 (Bluetooth Device (Personal Area Network) #3)/Megabits sent/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+<tr>
+<td class="line2left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/eth21 (Hyper-V Virtual Ethernet Adapter)/Megabits received/sec.</span></td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered">0</td><td class="line2right bordered"> - </td>
+</tr>
+<tr>
+<td class="line1left bordered"><span class="tablelabel left-block-margin">LG localhost:7100/Network/eth21 (Hyper-V Virtual Ethernet Adapter)/Megabits sent/sec.</span></td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered">0</td><td class="line1right bordered"> - </td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>
